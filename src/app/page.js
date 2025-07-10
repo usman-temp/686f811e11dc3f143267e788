@@ -1,12 +1,14 @@
-export default Home() {
-    return (
-        <div className="">
-            Hello
-        </div>
-    )
 import HeroSection from './components/HeroSection';
-export default function Home() {
+function Home() {
   return (
+    <main className="">
+      {' '}
+      <HeroSection />{' '}
+    </main>
+  );
+}
+export default Home;
+
     <main className="">
       {' '}
       <HeroSection />{' '}
