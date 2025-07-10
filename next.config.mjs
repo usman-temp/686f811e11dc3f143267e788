@@ -1,1 +1,1 @@
-module.exports = {  eslint: false,};
+export default {  eslint: false,};
